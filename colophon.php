@@ -100,6 +100,21 @@
 		<br><hr><br>
 	</section>
 
+	<section>
+		<h2>Team 4 Colophon</h2>
+		<br><hr/>
+		<div class="row">
+
+			<div class="col-md-8">
+				<h3>Danny Diaz-Etchevehere</h3>
+				<ul class="list-unstyled">
+					<p>I got rid of the old nav and created a responsive fixed top-nav. This required a mix of html, css, js (and jquery), and php. I created responsive-nav.inc, responsive-nav-styles.css, and responsive-nav.js, and I added nav fonts to fonts.css. I also incorporated Team 3's music player into the nav on each band page by using php on to store the path to each page's audio file. Then I used js to add the path to the source attribute of the audio element in responsive-nav.inc. I included responsive-nav.inc and responsive-nav.js on every page. </p>
+					<p>For mobile sized screens, the nav has a hamburger menu that creates a fullscreen overlay so that the user can choose which page to go to next (or choose to navigate back to the top of the page). I found a couple online tutorials on how to achieve the fade effect for the overlay (and to create the overlay itself), which I cite in responsive-nav-styles.css.</p>
+					<p>(Note: on our github page, commits from "memoryfuel" and "ddiazetc" are both me. I have two accounts and accidentally used both.)</p>
+				</ul>
+			</div>
+		</div>
+	</section>
 	<!-- Technologies Used -->
 	<section>
 		<h2>Technologies Used For All Pages</h2>
