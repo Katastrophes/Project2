@@ -2,16 +2,6 @@
 	Slides - Theresa Xu
 	************************************* */
 
-/*#slidePics {
-	padding-top: 30px;
-	padding-bottom: 30px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	height: 80%
-	width: 40%
-}*/
-
 #slidePics {
 	-webkit-size: cover;
 	-moz-size: cover;
@@ -103,9 +93,9 @@ h2{
   background-color: white;
   border-color: transparent;
   border-radius: 0px;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-style:bold;
-  font-size: 1.25em;
+  /*font-family: 'Roboto Condensed', sans-serif;*/
+  /*font-style:bold;*/
+  font-size: 10pt;
   
 }
 
@@ -115,14 +105,20 @@ h2{
   color: black;
 }
 
+
 .navbar-brand,
 .navbar-nav > li > a {
   background-color: transparent;
 }
 
+.btn{
+	height: 40px;
+	font-size: 11pt;
+}
+
 .btn.outline {
 	background: none;
-	padding: 12px 22px;
+	/*padding: 12px 22px;*/
 }
 
 .btn-primary.outline {
@@ -140,4 +136,20 @@ h2{
 	box-shadow: none;
 }
 
+/**added by Danny**/
 
+.container{
+	padding-top: 40px;
+
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -50px;
+    visibility: hidden;
+}
+
+.cover{ /**so that the overlay menu doesn't flash*/
+	background-color: #ffffff;
+}

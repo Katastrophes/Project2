@@ -1,22 +1,28 @@
 <!doctype html>
 
 <html>
-<?php 
-	$thisPage = "Index"
-	 ?>
+	<?php $thisPage = "Home" ?>
 
-	<?php 
-	include "inc/head.inc"
-	?>
+	<?php include "inc/head.inc" ?>
+
+	<!--This div is for getting the variable value $audio_str thru JS in responsive-nav.js-->
+	<div id="music-target" style="display: none;">
+		<?php
+		$audio_str = "nomusic";
+		echo htmlspecialchars($audio_str);
+		?>
+	 </div>
 
 	<body>
+		<?php include "inc/responsive-nav.inc" ?>
 		<div class="container">
 
 		<section id="top-part">
 			<?php 
 			include "inc/nav.inc"
 		 	?>
-
+		 	<!--for internal scrolling. When user clicks on href=#top, it scrolls all the way up-->
+		 	<a class="anchor" id="top"></a>	
 		 	<header>
 				<h1>Alternative Rock</h1>
 			</header>
@@ -70,6 +76,9 @@
 			</footer>
 
 		</div> <!-- End .container -->
+
+<!--need this on every page for the fixed top-nav to work-->
+<script src="js/responsive-nav.js"></script>
 
 </body>
 </html>

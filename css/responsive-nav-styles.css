@@ -1,0 +1,190 @@
+/**Responsive nav by Danny Diaz-Etchevehere**/
+/*Inspired by http://www.w3schools.com/howto/howto_js_fullscreen_overlay.asp*/
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body{
+	margin:0;
+	padding:0;
+}
+
+html{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+.bar{ /*nav*/
+	z-index: 10;
+	opacity: 1;
+	transition: opacity .25s;
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 110%;
+	left: -45px;
+	margin: 0 auto;
+	background: #fff;
+	padding: 0px 0px;
+	height: 40px;
+	box-shadow: -5px 8px 6px -8px #999;
+}
+
+.nav-item{
+	text-align: center;
+	padding: 0px 20px;	
+}
+
+.bar .responsive{
+	background-color: cyan;
+	height:100%;
+	flex-wrap: wrap;
+}
+
+.bar .nav-item .responsive{
+	/*position: fixed;*/
+	overflow: visible;
+	display:block;
+	color: blue;
+	height: 50px;
+	/*flex: 0 1 100%;*/
+	/*width:100%;*/
+	background-color: #eee;
+	/*align-content: center;*/
+	border-style: solid;
+}
+
+#music{
+	display: none;
+}
+
+/******mobile size nav fullscreen overlay******/
+
+#hamburger{
+	display: none;
+	z-index: 21;
+	position: fixed;
+	top: 8px;
+	left: 10px;
+	font-size: 30px;
+	cursor: pointer;
+	color: #adbaca;
+}
+
+#mobile-nav{
+	top: 0;
+	opacity: 0;
+	/*visibility: hidden;*/
+	transition: opacity .25s;
+	z-index: -2000;
+}
+
+	/*for fade... from https://jsfiddle.net/v8201h5q/3/*/
+	/*orig from http://stackoverflow.com/questions/30064932/hide-element-after-fade-out-using-only-css*/
+
+.overlay {
+	height: 100%;
+	width: 100%;
+	position: fixed;
+
+	top: 0;
+	left: 0;
+	background-color: rgb(255,255,255);
+	overflow-y: hidden;
+    -moz-animation-name: fadeIn;
+	-webkit-animation-name: fadeIn;
+	-ms-animation-name: fadeIn;
+	animation-name: fadeIn;
+	-moz-animation-duration: .25s;
+	-webkit-animation-duration: .25s;
+	-ms-animation-duration: .25s;
+	animation-duration: .25s;
+	-moz-animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+
+.overlay.fadeOut {
+	-moz-animation-name: fadeOut;
+	-webkit-animation-name: fadeOut;
+	-ms-animation-name: fadeOut;
+	animation-name: fadeOut;
+}
+
+@-moz-keyframes fadeIn { 0% { opacity: 0; visibility: hidden; } 100% { opacity: 0.9; visibility: visible; }}
+@-webkit-keyframes fadeIn { 0% { opacity: 0; visibility: hidden; } 100% { opacity: 0.9; visibility: visible; }}
+@-ms-keyframes fadeIn { 0% { opacity: 0; visibility: hidden; } 100% { opacity: 0.9; visibility: visible; }}
+@keyframes fadeIn { 0% { opacity: 0; visibility: hidden; } 100% { opacity: 0.9; visibility: visible; }}
+
+@-moz-keyframes fadeOut { 0% { opacity: 0.9; visibility: visible; }  100% { opacity: 0; visibility: hidden; }}
+@-webkit-keyframes fadeOut { 0% { opacity: 0.9; visibility: visible; }  100% { opacity: 0; visibility: hidden; }}
+@-ms-keyframes fadeOut { 0% { opacity: 0.9; visibility: visible; } 100% { opacity: 0; visibility: hidden; }}
+@keyframes fadeOut { 0% { opacity: 0.9; visibility: visible; } 100% { opacity: 0; visibility: hidden;  }}
+
+.overlay-content {
+	position: relative;
+	top: 20%;
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.overlay a {
+	padding: 8px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #666666;
+	display: block;
+	transition: 0.3s;
+	opacity: 1.0;
+}
+
+.overlay a:hover, .overlay a:focus {
+	color: #000;
+	opacity: 1.0;
+
+}
+
+.overlay .closebtn {
+	position: fixed;
+	top: 5px;
+	left: 10px;
+	font-size: 60px;
+}
+
+.mobile-nav-a a:hover{
+	text-decoration: none;
+}
+
+#nav-this-page{
+	display: none;
+}
+
+/*------------Media Queries------------*/
+
+@media(max-width: 720px){
+	.bar{
+		align-items: center;
+		justify-content: flex-start;
+		width: 130%;
+		left: -5px;
+	}
+
+	.bar .nav-item{
+		display: none;
+	}
+
+	#hamburger{
+		display: block;
+	}
+
+	#nav-this-page{
+		display: block;
+		padding-right: 30px;
+		padding-left: 50px;
+	}
+}

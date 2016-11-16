@@ -1,22 +1,24 @@
 <!doctype html>
 
 <html>
-
-	<?php 
-	$thisPage = "FW"
-	 ?>
-	<?php 
-		include "inc/head.inc"
-	 ?>
-
+	<?php $thisPage = "Freelance Whales"; ?>
+	<?php include "inc/head.inc"; ?>
+	 
 	<body>
+
+	<!--This div is for getting the variable value $audio_str thru JS in responsive-nav.js-->
+	 <div id="music-target" style="display: none;">
+		<?php
+		$audio_str = "audio/audio3.mp3";
+		echo htmlspecialchars($audio_str);
+		?>
+	 </div>
+
+	<?php include "inc/responsive-nav.inc"; ?>
+
 	<div class="container">
-
-		<?php 
-		include "inc/nav.inc"
-	 	?>
-
-		<header>
+		<a class="anchor" id="top"></a>	
+		<header id="top">
 			<h1>Alternative Music | Freelance Whales</h1>
 		</header>
 
@@ -52,11 +54,7 @@
 			<!-- Right column -->
 			<div class="col-md-5">
 
-				<div id = "music">
-					<audio id = "song" src ="audio/audio3.mp3"></audio>
-					<input type = "button" class="btn btn-primary btn-lg outline" onclick="play()" value="Play">
-					<input type = "button" class="btn btn-primary btn-lg outline" onclick="stop()" value="Pause">
-				</div>
+				
 				
 				<aside>
 
@@ -97,6 +95,7 @@
 
 	</div> <!-- end .container -->
 
+<script src="js/responsive-nav.js"></script>
 </body>
 
 </html>

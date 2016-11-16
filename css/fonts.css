@@ -1,0 +1,34 @@
+/**responsive nav fonts by Danny Diaz-Etchevehere*/
+
+.nav-item{
+	font-size: 11pt;
+
+}
+
+.nav-item a{
+	color: #C2C2C2;
+}
+
+.nav-item a:hover{
+	text-decoration: none;
+	color: #eeeeee;
+}
+
+#nav-this-page{
+	font-size: 11pt;
+	
+}
+#nav-this-page a{
+	color: black;
+}
+
+#nav-this-page a:hover{
+	color: #eeeeee;
+	text-decoration: none;
+}
+
+.nav-item .active{
+	color: black;
+}
+
+
