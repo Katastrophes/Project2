@@ -1,26 +1,26 @@
 <!doctype html>
 
 <html>
-
-
-	<?php 
-	$thisPage = "NMH"
- 	?>
-	<?php 
-	include "inc/head.inc"
- 	?>
+	<?php $thisPage = "Neutral Milk Hotel" ?>
+	<?php include "inc/head.inc" ?>
 
 	<body>
+
+	<!--This div is for getting the variable value $audio_str thru JS in responsive-nav.js-->
+	 <div id="music-target" style="display: none;">
+		<?php
+		$audio_str = "audio/audio1.mp3";
+		echo htmlspecialchars($audio_str);
+		?>
+	 </div>
+	<?php include "inc/responsive-nav.inc"; ?>
+
+	<div class="cover"><!--so that the overlay menu doesn't flash on screen.-->
 	<div class="container">
-
-		<?php 
-		include "inc/nav.inc"
-	 	?>
-
+	 	<a class="anchor" id="top"></a>	
 		<header>
 			<h1>Alternative Music | Neutral Milk Hotel</h1>
 		</header>
-		
 
 	<section id="information">
 		<div class="row">
@@ -90,14 +90,7 @@
 			</div>
 
 			<!-- Right column -->
-			<div class="col-md-5">
-
-				<div id = "music">
-					<audio id = "song" src ="audio/audio1.mp3"></audio>
-					<input type = "button" class="btn btn-primary btn-lg outline" onclick="play()" value="Play">
-					<input type = "button" class="btn btn-primary btn-lg outline" onclick="stop()" value="Pause">
-				</div>
-				
+			<div class="col-md-5">				
 				<aside>
 					<h2>Influence</h2>
 					<p><span class = "first-half-sentence">Neutral Milk Hotel's sound has influenced numerous groups such as </span> Arcade Fire, Bon Iver, Beirut, Franz Ferdinand, Bright Eyes,[36] and The Decemberists.[37][38] Their songs have been covered by a number of artists including Brand New ("Oh Comely", "Two Headed Boy"), Matt Pond PA, Eisley ("In The Aeroplane Over The Sea"), The Mountain Goats,[39] Andrew Jackson Jihad, The Dresden Dolls, ("Two Headed Boy"), Kevin Devine ("Holland, 1945", "Two Headed Boy Part 2") and The Flowers of Hell ("Avery Island" / "April 1st").[40] They are also considered one of the most influential groups in neo-folk and indie music, and In the Aeroplane Over the Sea is typically considered within conversations of the best albums under these genre labels (specifically from this time period).[citation needed]</p>
@@ -113,7 +106,9 @@
 		</footer>
 
 	</div> <!-- end .container -->
+	</div><!--cover-->
+<script>document.getElementById("mobile-nav").style.opacity = "0";</script>
+<script src="js/responsive-nav.js"></script>
 
 </body>
-
 </html>

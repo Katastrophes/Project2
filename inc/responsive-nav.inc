@@ -16,7 +16,7 @@
 
 <div id="barID" class="bar">
     <div id="nav-this-page"><a href="#top" ><?php echo $thisPage?></a></div>
- 
+
     <div class="nav-item"><a href="index.php" class="<?php if ($thisPage == "Home"){ echo "nav-a active";} ?>">Home</a></div>
     <div class="nav-item"><a href="NMH.php" class="<?php if ($thisPage == "Neutral Milk Hotel"){ echo "nav-a active";} ?>">Neutral Milk Hotel</a></div>
     <div class="nav-item"><a href="lordHuron.php" class="<?php if ($thisPage == "Lord Huron"){ echo "nav-a active";} ?>">Lord Huron</a></div>
