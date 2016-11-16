@@ -1,23 +1,26 @@
 <!doctype html>
-<html>
-<?php $thisPage = "Lord Huron" ?>
-<?php include "inc/head.inc" ?>
 
-<body>
-<!--This div is for getting the variable value $audio_str thru JS in responsive-nav.js-->
- <div id="music-target" style="display: none;">
-	<?php
-	$audio_str = "audio/audio2.mp3";
-	echo htmlspecialchars($audio_str);
-	?>
- </div>
-<?php include "inc/responsive-nav.inc"; ?>
-<div class="container">
- 	<a class="anchor" id="top"></a>	
-	<header>
-		<h1>Alternative Music | Lord Huron</h1>
-		<div>A Musical Project That Is Also an Alternate Reality Game</div>
-	</header>
+<html>
+
+<?php 
+	$thisPage = "LH"
+ ?>
+<?php 
+	include "inc/head.inc"
+ ?>
+
+	<body>
+	<div class="container">
+
+		<?php 
+		include "inc/nav.inc"
+	 	?>
+
+		<header>
+			<h1>Alternative Music | Lord Huron</h1>
+			<div>A Musical Project That Is Also an Alternate Reality Game</div>
+		</header>
+
 
 	<section id="information">
 		<div class="row">
@@ -156,6 +159,12 @@
 			<!-- Right column -->
 			<div class="col-md-5">
 
+				<div id = "music">
+					<audio id = "song" src ="audio/audio2.mp3"></audio>
+					<input type = "button" class="btn btn-primary btn-lg outline" onclick="play()" value="Play">
+					<input type = "button" class="btn btn-primary btn-lg outline" onclick="stop()" value="Pause">
+				</div>
+
 				<aside>
 					<h2>George Ranger Johnson</h2>
 					<p>
@@ -182,13 +191,13 @@
 		</div> <!-- end .row -->
 	</section>
 
-	<footer>
-		<p>Content taken from <a href="https://en.wikipedia.org/wiki/Lord_Huron">Wikipedia</a> and <a href="http://bits.blogs.nytimes.com/2014/02/19/meet-lord-huron-a-musical-project-that-is-also-an-alternate-reality-game/?_r=0">Meet Lord Huron</a>.</p>
-	</footer>
+		<footer>
+			<p>Content taken from <a href="https://en.wikipedia.org/wiki/Lord_Huron">Wikipedia</a> and <a href="http://bits.blogs.nytimes.com/2014/02/19/meet-lord-huron-a-musical-project-that-is-also-an-alternate-reality-game/?_r=0">Meet Lord Huron</a>.</p>
 
-</div> <!-- end .container -->
+		</footer>
 
-<script src="js/responsive-nav.js"></script>
+	</div> <!-- end .container -->
+
 </body>
 
 </html>
