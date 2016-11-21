@@ -24,23 +24,28 @@
 			<!-- Left column -->
 			<div class="col-md-7 page">
 					<h2>Background</h2>
-
+				<div class="chunk">
 					<p>
 						<span class = "first-half-sentence">Lord Huron is an American indie folk band based in Los Angeles.</span> The group's debut album, Lonesome Dreams, was released in 2012 on Iamsound in the U.S. and Play It Again Sam in UK &amp; IE in January 2013. Following the release of the album the group appeared on The Tonight Show and their song "Ends of the Earth" was featured in the series finale of the television series Community. The band’s name was inspired by Lake Huron, the lake which band founder Ben Schneider grew up visiting, where he would spend evenings playing music around the campfire. 
 					</p>
-
-					<h2>Formation</h2>
+				</div>
 
 					<figure>
 						<img src="images/image2.jpg" class="figure-img img-responsive img-rounded unveilImg" alt="Lord Huron">
 						<figcaption class="figure-caption">Lord Huron</figcaption>
 					</figure>
+
+					<h2>Formation</h2>
+
+				<div class="chunk">
 					<p>
 						<span class = "first-half-sentence">Founding member Ben Schneider began writing music in his hometown</span> of Okemos, Michigan. Schneider went on to study visual art at the University of Michigan and finished his degree in France, before moving to New York where he worked for an artist. In 2005, Schneider moved to Los Angeles. In 2010, Schneider formed Lord Huron as a solo project, recording his first few EPs entirely on his own and steadily adding members to help play in live shows, most of whom he had known since childhood.
 					</p>
+				</div>
 
 					<h2>Modern Magic</h2>
 
+				<div class="chunk">
 					<p>
 						<span class = "first-half-sentence">OAKLAND, Calif. — Ask Ben Schneider to name the inspiration for his band,</span> Lord Huron, and he will name George Ranger Johnson, one of the more prolific Western adventure novelists you’ve never heard of. That’s because Mr. Schneider, Lord Huron’s frontman, made him up. He made up George Ranger Johnson’s website, too. Admirers looking to buy one of Mr. Johnson’s novels will be disappointed to find they are all, conveniently, out of print, and that all the book titles are identical to Lord Huron songs. George Ranger Johnson is, in fact, just one character in the digital fantasy world Mr. Schneider has created for his band, Lord Huron.
 					</p>
@@ -132,9 +137,11 @@
 					<p>
 						“Maybe that’s what I’m trying to create,” Mr. Schneider said. “A musical place that is a little bit of a getaway.”
 					</p>
+				</div>
 
 					<h2>Band Members</h2>
 
+				<div class="chunk">
 					<ul>
 						<li>Ben Schneider - guitar, vocals</li>
 						<li>Mark Barry - percussion, vocals</li>
@@ -142,6 +149,7 @@
 						<li>Tom Renaud - guitar, vocals</li>
 
 					</ul>
+				</div>
 
 					<figure>
 						<img src="images/image1.jpg" class="figure-img img-responsive img-rounded unveilImg" alt="Lord Huron Band Members">
@@ -149,11 +157,16 @@
 					</figure>
 
 					<h2>George Ranger Johnson</h2>
+
+				<div class="chunk">
 					<p>
 						<a href="http://www.georgerangerjohnson.com/">George Ranger Johnson</a> (born March 11, 1946) is the author of the Lonesome Dreams series of adventure stories, including "Ends of the Earth", "Time to Run" and "The Man Who Lives Forever". Mr. Johnson currently resides in Tucson, AZ. His most recent novel, "The Ghost on the Shore" was published in 1987. The series unfolds non-chronologically, following the wide-ranging adventures of several characters, (chiefly Huron, Admiral Blaquefut and Helena) whose stories intertwine. It is unclear whether the Lonesome Dreams series will continue.
 					</p>
+				</div>
 
 					<h2>The <em>Lonesome Dreams</em> series</h2>
+
+				<div class="chunk">
 					<p>(In order of publication date)</p>
 					<ol>
 						<li><a href="https://itunes.apple.com/us/album/lonesome-dreams/id563052469">"Lonesome Dreams" (1966)</a></li>
@@ -168,6 +181,7 @@
                         <li><a href="https://itunes.apple.com/us/album/the-ghost-on-the-shore/id970887928?i=970888863">"The Ghost on the Shore" (1987)</a></li>
                         <li><a href="https://itunes.apple.com/gb/album/lonesome-dreams-deluxe-version/id588742012">"Setting Sun" (unfinished)</a></li>
 					</ol>
+				</div>
 			</div>
 		</div> <!-- end .row -->
 	</section>

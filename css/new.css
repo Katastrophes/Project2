@@ -25,10 +25,26 @@ figcaption {
 	box-shadow: 10px 10px 47px -9px rgba(0,0,0,0.75);
 }
 
+.page h2 {
+	color: #FEE6BA;
+}
+
+.page h3 {
+	color: white;
+}
+
+.first-half-sentence {
+	color: white;
+}
+
 .page p {
 	color: white;
 }
 
 .page li {
 	color: white;
+}
+
+.chunk {
+	background-color: #01959F;
 }
