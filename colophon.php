@@ -124,6 +124,7 @@
 
         <h3>Teron Russell</h3>
 				<ul class="list-unstyled">
+                    <p> I created hyperlinks to most of the pages to show more information. There are that states the singles, albums, and EPs now link to a respectable location for purchase. I added an unveil (lazyLoad) plugin to make the images load differently in the colophon. It is noticeable if you look at the scrollbar while scrolling down through all the members. Added some CSS to make the unveil plugin work.</p>
 				</ul>
 
         <h3>Jake Socolow</h3>
