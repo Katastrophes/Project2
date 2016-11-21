@@ -56,7 +56,7 @@
 
 				
 				
-				<aside class="static">
+				<aside class="static" id="static3">
 
 					<h2>Discography</h2>
 
