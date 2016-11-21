@@ -1,5 +1,29 @@
 /**Added by Ruairi**/
 
+/**Navbar**/
+
+#barID {
+	background-color: #114368;
+}
+
+.nav-item {
+	background-color: #FEE6BA;
+}
+
+#navleft {
+	border-radius: 5px 0 0 5px;
+}
+
+#navright {
+	border-radius: 0 5px 5px 0;
+}
+
+/**#barID a {
+	color: #FEE6BA;
+}**/
+
+/** body **/
+
 header {
 	margin: 30px 0 0 0;
 	margin-left: 39px;

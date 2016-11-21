@@ -17,11 +17,11 @@
 <div id="barID" class="bar">
     <div id="nav-this-page"><a href="#top" ><?php echo $thisPage?></a></div>
 
-    <div class="nav-item"><a href="index.php" class="<?php if ($thisPage == "Home"){ echo "nav-a active";} ?>">Home</a></div>
+    <div class="nav-item" id="navleft"><a href="index.php" class="<?php if ($thisPage == "Home"){ echo "nav-a active";} ?>">Home</a></div>
     <div class="nav-item"><a href="NMH.php" class="<?php if ($thisPage == "Neutral Milk Hotel"){ echo "nav-a active";} ?>">Neutral Milk Hotel</a></div>
     <div class="nav-item"><a href="lordHuron.php" class="<?php if ($thisPage == "Lord Huron"){ echo "nav-a active";} ?>">Lord Huron</a></div>
     <div class="nav-item"><a href="freelanceWhales.php" class="<?php if ($thisPage == "Freelance Whales"){ echo "nav-a active";} ?>">Freelance Whales</a></div>
-    <div class="nav-item"><a href="colophon.php" class="<?php if ($thisPage == "Colophon"){ echo "nav-a active";} ?>">Colophon</a></div>
+    <div class="nav-item" id="navright"><a href="colophon.php" class="<?php if ($thisPage == "Colophon"){ echo "nav-a active";} ?>">Colophon</a></div>
     <div id="music">
 		<audio id = "song" src =""></audio>
 		<input type = "button" class="btn btn-primary btn-lg outline" onclick="play()" value="Play">
