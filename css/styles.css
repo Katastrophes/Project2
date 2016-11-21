@@ -153,3 +153,9 @@ a.anchor {
 .cover{ /**so that the overlay menu doesn't flash*/
 	background-color: #ffffff;
 }
+
+/** added by Teron**/
+.unveilImg {
+    opacity: 0;
+    transition: opacity .5s ease-in;
+}

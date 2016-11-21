@@ -160,6 +160,8 @@
 	</section>
 
 </div> <!-- end .container -->
+    
+<script src="js/jquery.js"></script>
 
 <script src="js/responsive-nav.js"></script>
 
@@ -171,6 +173,7 @@
         $(".unveilImg").unveil(0, function() {
             $(this).load(function() {
                 this.style.opacity = 1;
+                
             });
         });
     });
