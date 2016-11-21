@@ -13,7 +13,7 @@
  </div>
 <?php include "inc/responsive-nav.inc"; ?>
 <div class="container">
-	<a class="anchor" id="top"></a>	
+	<a class="anchor" id="top"></a>
 	<header>
 		<h1>Colophon</h1>
 	</header>
@@ -112,13 +112,31 @@
 					<p>For mobile sized screens, the nav has a hamburger menu that creates a fullscreen overlay so that the user can choose which page to go to next (or choose to navigate back to the top of the page). I found a couple online tutorials on how to achieve the fade effect for the overlay (and to create the overlay itself), which I cite in responsive-nav-styles.css.</p>
 					<p>(Note: on our github page, commits from "memoryfuel" and "ddiazetc" are both me. I have two accounts and accidentally used both.)</p>
 				</ul>
+
+        <h3>Gunnar Zemering</h3>
+				<ul class="list-unstyled">
+				</ul>
+
+        <h3>Ruairi Conway</h3>
+				<ul class="list-unstyled">
+				</ul>
+
+        <h3>Teron Russell</h3>
+				<ul class="list-unstyled">
+				</ul>
+
+        <h3>Jake Socolow</h3>
+				<ul class="list-unstyled">
+				</ul>
+
+
 			</div>
 		</div>
 	</section>
 	<!-- Technologies Used -->
 	<section>
 		<h2>Technologies Used For All Pages</h2>
-		<ul ul class="list-unstyled">	
+		<ul ul class="list-unstyled">
 			<li>PHP</li>
 			<li>HTML</li>
 			<li>CSS</li>
