@@ -16,14 +16,12 @@
  	<a class="anchor" id="top"></a>	
 	<header>
 		<h1>Alternative Music | Lord Huron</h1>
-		<div>A Musical Project That Is Also an Alternate Reality Game</div>
 	</header>
 
 	<section id="information">
 		<div class="row">
 			<!-- Left column -->
 			<div class="col-md-7 page">
-					<h2>Background</h2>
 				<div class="chunk">
 					<p>
 						<span class = "first-half-sentence">Lord Huron is an American indie folk band based in Los Angeles.</span> The group's debut album, Lonesome Dreams, was released in 2012 on Iamsound in the U.S. and Play It Again Sam in UK &amp; IE in January 2013. Following the release of the album the group appeared on The Tonight Show and their song "Ends of the Earth" was featured in the series finale of the television series Community. The band’s name was inspired by Lake Huron, the lake which band founder Ben Schneider grew up visiting, where he would spend evenings playing music around the campfire. 
