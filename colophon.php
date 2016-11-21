@@ -31,7 +31,7 @@
 		<h2 id="aboutUs">About Us</h2>
 		<div class="row">
 			<div class="col-md-4">
-				<img src="images/sarah.jpg" class="img-responsive unveilImg" alt="Sarah">
+				<img src="images/sarah.jpg" class="img-responsive" alt="Sarah">
 			</div>
 
 			<div class="col-md-8">
@@ -45,7 +45,7 @@
 		<br><hr/>
 		<div class="row">
 			<div class="col-md-4">
-				<img src="images/alex.jpg" class="img-responsive unveilImg" alt="Alex">
+				<img src="images/alex.jpg" class="img-responsive" alt="Alex">
 			</div>
 
 			<div class="col-md-8">
@@ -59,7 +59,7 @@
 		<br><hr/>
 		<div class="row">
 			<div class="col-md-4">
-				<img src="images/tess.jpg" class="img-responsive unveilImg" alt="Tess">
+				<img src="images/tess.jpg" class="img-responsive" alt="Tess">
 			</div>
 
 			<div class="col-md-8">
@@ -73,7 +73,7 @@
 		<br><hr/>
 		<div class="row">
 			<div class="col-md-4">
-				<img src="images/april.jpg" class="img-responsive unveilImg" alt="April">
+				<img src="images/april.jpg" class="img-responsive" alt="April">
 			</div>
 
 			<div class="col-md-8">
@@ -87,7 +87,7 @@
 		<br><hr/>
 		<div class="row">
 			<div class="col-md-4">
-				<img src="images/theresa.jpg" class="img-responsive unveilImg" alt="Theresa">
+				<img src="images/theresa.jpg" class="img-responsive" alt="Theresa">
 			</div>
 
 			<div class="col-md-8">
@@ -143,7 +143,6 @@
 </div> <!-- end .container -->
 
 <script src="js/responsive-nav.js"></script>
-<?php include('inc/unveil.inc'); ?>
 
 </body>
 </html>

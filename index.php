@@ -28,14 +28,14 @@
 			</header>
 		 	
 		 	<div align = "center" class = "slides"> 
-				<img id = "slidePics" src = "images/image6.jpg" style="width:85%" class="img-responsive unveilImg">
+				<img id = "slidePics" src = "images/image6.jpg" style="width:85%" class="img-responsive">
 	
 				<div id = "left-arrow">
-					<img class = "larrow" src = "images/leftpoint.svg" onclick="displayPics(-1)" class="img-responsive unveilImg">
+					<img class = "larrow" src = "images/leftpoint.svg" onclick="displayPics(-1)" class="img-responsive">
 				</div>
 
 				<div id = "right-arrow">
-					<img class = "rarrow" src = "images/rightpoint.svg" onclick="displayPics(1)" class="img-responsive unveilImg">
+					<img class = "rarrow" src = "images/rightpoint.svg" onclick="displayPics(1)" class="img-responsive">
 				</div>
 			</div>
 		 	
@@ -79,9 +79,6 @@
 
 <!--need this on every page for the fixed top-nav to work-->
 <script src="js/responsive-nav.js"></script>
-        
-<!-- unveil -->
-<?php include('inc/unveil.inc'); ?>
 
 </body>
 </html>
