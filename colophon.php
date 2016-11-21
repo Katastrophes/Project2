@@ -104,39 +104,47 @@
 		<h2 id="team4header">Team 4 Colophon</h2>
 		<br>
 		<div class="row">
-
 			<div class="team4">
-				<h3>Danny Diaz-Etchevehere</h3>
-				<ul class="list-unstyled">
-					<p>I got rid of the old nav and created a responsive fixed top-nav. This required a mix of html, css, js (and jquery), and php. I created responsive-nav.inc, responsive-nav-styles.css, and responsive-nav.js, and I added nav fonts to fonts.css. I also incorporated Team 3's music player into the nav on each band page by using php on to store the path to each page's audio file. Then I used js to add the path to the source attribute of the audio element in responsive-nav.inc. I included responsive-nav.inc and responsive-nav.js on every page. </p>
-					<p>For mobile sized screens, the nav has a hamburger menu that creates a fullscreen overlay so that the user can choose which page to go to next (or choose to navigate back to the top of the page). I found a couple online tutorials on how to achieve the fade effect for the overlay (and to create the overlay itself), which I cite in responsive-nav-styles.css.</p>
-					<p>(Note: on our github page, commits from "memoryfuel" and "ddiazetc" are both me. I have two accounts and accidentally used both.)</p>
-				</ul>
+				<div class="team4bios">
+					<h3 id="top4bio">Danny Diaz-Etchevehere</h3>
+					<ul class="list-unstyled">
+						<p>I got rid of the old nav and created a responsive fixed top-nav. This required a mix of html, css, js (and jquery), and php. I created responsive-nav.inc, responsive-nav-styles.css, and responsive-nav.js, and I added nav fonts to fonts.css. I also incorporated Team 3's music player into the nav on each band page by using php on to store the path to each page's audio file. Then I used js to add the path to the source attribute of the audio element in responsive-nav.inc. I included responsive-nav.inc and responsive-nav.js on every page. </p>
+						<p>For mobile sized screens, the nav has a hamburger menu that creates a fullscreen overlay so that the user can choose which page to go to next (or choose to navigate back to the top of the page). I found a couple online tutorials on how to achieve the fade effect for the overlay (and to create the overlay itself), which I cite in responsive-nav-styles.css.</p>
+						<p>(Note: on our github page, commits from "memoryfuel" and "ddiazetc" are both me. I have two accounts and accidentally used both.)</p>
+					</ul>
+				</div>
 
-        		<h3>Gunnar Zemering</h3>
-				<ul class="list-unstyled">
-          			<p>Created the new readme and edited the project plan. Created and organized the github. Replaced the slideshow on the homepage with a more responsive one. Replaced and resized all the images with higher quality images.</p>
-				</ul>
+				<div class="team4bios">
+	        		<h3>Gunnar Zemering</h3>
+					<ul class="list-unstyled">
+	          			<p>Created the new readme and edited the project plan. Created and organized the github. Replaced the slideshow on the homepage with a more responsive one. Replaced and resized all the images with higher quality images.</p>
+					</ul>
+				</div>
 
-        		<h3>Ruairi Conway</h3>
-				<ul class="list-unstyled">
-				</ul>
+				<div class="team4bios">
+	        		<h3>Ruairi Conway</h3>
+					<ul class="list-unstyled">
+					</ul>
+				</div>
 
-        		<h3>Teron Russell</h3>
-				<ul class="list-unstyled">
-                    <p> I created hyperlinks to most of the pages to show more information. There are that states the singles, albums, and EPs now link to a respectable location for purchase. I added an unveil (lazyLoad) plugin to make the images load differently in the colophon. It is noticeable if you look at the scrollbar while scrolling down through all the members. Added some CSS to make the unveil plugin work.</p>
-				</ul>
+				<div class="team4bios">
+	        		<h3>Teron Russell</h3>
+					<ul class="list-unstyled">
+	                    <p> I created hyperlinks to most of the pages to show more information. There are that states the singles, albums, and EPs now link to a respectable location for purchase. I added an unveil (lazyLoad) plugin to make the images load differently in the colophon. It is noticeable if you look at the scrollbar while scrolling down through all the members. Added some CSS to make the unveil plugin work.</p>
+					</ul>
+				</div>
 
-        		<h3>Jake Socolow</h3>
-				<ul class="list-unstyled">
-				</ul>
-
-
+				<div class="team4bios">
+	        		<h3>Jake Socolow</h3>
+					<ul class="list-unstyled">
+					</ul>
+				</div>
 			</div>
 		</div>
 	</section>
+	<br>
 	<!-- Technologies Used -->
-	<section>
+	<section id="tech">
 		<h2>Technologies Used For All Pages</h2>
 		<ul ul class="list-unstyled">
 			<li>PHP</li>
@@ -149,9 +157,9 @@
 	</section>
 
 	<!-- Sources of Content -->
-	<section>
+	<section id="sources">
 		<h2>Sources</h2>
-		<ol>
+		<ol id="sourceList">
 			<li><a href="https://en.wikipedia.org/wiki/Alternative_rock">https://en.wikipedia.org/wiki/Alternative_rock</a></li>
 			<li><a href="https://en.wikipedia.org/wiki/Neutral_Milk_Hotel">https://en.wikipedia.org/wiki/Neutral_Milk_Hotel</a></li>
 			<li><a href="https://en.wikipedia.org/wiki/Lord_Huron">https://en.wikipedia.org/wiki/Lord_Huron</a></li>

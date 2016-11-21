@@ -178,12 +178,52 @@ footer a:hover {
 
 #team4header {
 	margin-top: 40px;
+	margin-left: 35px;
 	color: #114368;
 }
 
 .team4 {
-	max-width: 60%;
+	max-width: 70%;
 	margin: 0 auto;
+	background-color: #FEE6BA;
+	border-radius: 10px;
+	-webkit-box-shadow: 10px 10px 47px -9px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 47px -9px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 47px -9px rgba(0,0,0,0.75);
+}
+
+.team4bios {
+	padding: 1px 20px 20px 20px;
+	color: #114368;
+}
+
+#tech {
+	text-align: center;
+}
+
+#tech h2, li {
+	color: #114368;
+}
+
+#sources {
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+#sources h2 {
+	color: #114368;
+}
+
+#sourceList {
+	padding-right: 40px;
+}
+
+#sourceList a {
+	color: #114368;
+}
+
+#sourceList a:hover {
+	color: #01959F;
 }
 
 /** fonts **/
