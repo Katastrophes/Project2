@@ -33,7 +33,7 @@
 					<h2>History</h2>
 
 					<figure>
-						<img src="images/image5.jpg" class="figure-img img-responsive img-rounded" alt="Freelance Whales">
+						<img src="images/image5.jpg" class="figure-img img-responsive img-rounded unveilImg" alt="Freelance Whales">
 						<figcaption class="figure-caption">Freelance Whales</figcaption>
 					</figure>
 					<p><span class = "first-half-sentence">Freelance Whales was founded during 2008,[1] after connecting </span>through Craigslist and friends of friends.[2] The band's debut album, Weathervanes, was largely composed by frontman Judah Dadone, the lyrics based on a combination of childhood memories and dream journaling.[3] Because they're from New York, the band's name derives from that freelance atmosphere that the city has. Judah Dadone, once said: 'Everybody in New York is a freelancer of something, and we used to be too when we played in the subways'. Multi-instrumentalist Chuck Criss is the brother of actor and singer Darren Criss.[4]</p>
@@ -96,6 +96,8 @@
 	</div> <!-- end .container -->
 
 <script src="js/responsive-nav.js"></script>
+
+<?php include('inc/unveil.inc'); ?>
 </body>
 
 </html>

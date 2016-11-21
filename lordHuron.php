@@ -34,7 +34,7 @@
 					<h2>Formation</h2>
 
 					<figure>
-						<img src="images/image2.jpg" class="figure-img img-responsive img-rounded" alt="Lord Huron">
+						<img src="images/image2.jpg" class="figure-img img-responsive img-rounded unveilImg" alt="Lord Huron">
 						<figcaption class="figure-caption">Lord Huron</figcaption>
 					</figure>
 					<p>
@@ -146,7 +146,7 @@
 					</ul>
 
 					<figure>
-						<img src="images/image1.jpg" class="figure-img img-responsive img-rounded" alt="Lord Huron Band Members">
+						<img src="images/image1.jpg" class="figure-img img-responsive img-rounded unveilImg" alt="Lord Huron Band Members">
 						<figcaption class="figure-caption">Band Members</figcaption>
 					</figure>
 
@@ -189,6 +189,8 @@
 </div> <!-- end .container -->
 
 <script src="js/responsive-nav.js"></script>
+    
+<?php include('inc/unveil.inc'); ?>
 </body>
 
 </html>
