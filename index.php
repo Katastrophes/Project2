@@ -18,31 +18,50 @@
 		<div class="container">
 
 		<section id="top-part">
-			<?php 
+			<?php
 			include "inc/nav.inc"
 		 	?>
 		 	<!--for internal scrolling. When user clicks on href=#top, it scrolls all the way up-->
-		 	<a class="anchor" id="top"></a>	
+		 	<a class="anchor" id="top"></a>
 		 	<header>
 				<h1>Alternative Rock</h1>
 			</header>
-		 	
-		 	<div align = "center" class = "slides"> 
-				<img id = "slidePics" src = "images/image6.jpg" style="width:85%" class="img-responsive unveilImg">
-	
-				<div id = "left-arrow">
-					<img class = "larrow" src = "images/leftpoint.svg" onclick="displayPics(-1)" class="img-responsive unveilImg">
-				</div>
 
-				<div id = "right-arrow">
-					<img class = "rarrow" src = "images/rightpoint.svg" onclick="displayPics(1)" class="img-responsive unveilImg">
-				</div>
+			<div class="slideshow-container">
+
+			<div class="mySlides">
+			  <img src="images/image6.jpg" style="width:100%">
+			  <div class="text">Neutral Milk Hotel</div>
 			</div>
-		 	
+
+			<div class="mySlides">
+			  <img src="images/image7.jpg" style="width:100%">
+			  <div class="text">Lord Huron</div>
+			</div>
+
+			<div class="mySlides">
+			  <img src="images/image8.jpg" style="width:100%">
+			  <div class="text">Freelance Whales</div>
+			</div>
+
+			<a class="prev" onclick="plusSlides(-1)">❮</a>
+			<a class="next" onclick="plusSlides(1)">❯</a>
+
+			</div>
+			<br>
+
+			<div style="text-align:center">
+			  <span class="dot" onclick="currentSlide(1)"></span>
+			  <span class="dot" onclick="currentSlide(2)"></span>
+			  <span class="dot" onclick="currentSlide(3)"></span>
+			</div>
+
+			<script src="js/slideshow.js"></script>
+
 		 </section>
 
 		 <section id="information">
-		 	
+
 		 	<div class="row">
 		 		<!-- Left column -->
 		 		<div class="col-md-7">
@@ -79,7 +98,7 @@
 
 <!--need this on every page for the fixed top-nav to work-->
 <script src="js/responsive-nav.js"></script>
-        
+
 <!-- unveil -->
 <?php include('inc/unveil.inc'); ?>
 
