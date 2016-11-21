@@ -100,3 +100,13 @@ footer a {
 footer a:hover {
 	color: #114368;
 }
+
+/** fonts **/
+
+.chunk h3{
+	font-family: 'Catamaran', sans-serif;
+}
+
+h1 {
+	font-family: 'Catamaran', sans-serif;
+}
