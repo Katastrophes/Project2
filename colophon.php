@@ -14,14 +14,14 @@
 <?php include "inc/responsive-nav.inc"; ?>
 <div class="container">
 	<a class="anchor" id="top"></a>
-	<header>
+	<header id="coloheader">
 		<h1>Colophon</h1>
 	</header>
 
 	<div class="jumbotron">
-		<div class="container">
+		<div class="container" id="jumbotron">
 			<h1>Who We Are</h1>
-			<p>We are a team of student web developers from the University of Rochester that have a passion for music. By leveraging our diverse background and interests, we created a website to showcase a few of our favorite alternative rock bands.</p>
+			<p id="studentintro">We are a team of student web developers from the University of Rochester that have a passion for music. By leveraging our diverse background and interests, we created a website to showcase a few of our favorite alternative rock bands.</p>
 			<p><a class="btn btn-primary btn-lg outline" href="#aboutUs">Learn more &raquo;</a></p>
 		</div>
 	</div>
@@ -29,12 +29,12 @@
 		<!-- Team Information & Who Did What -->
 	<section>
 		<h2 id="aboutUs">About Us</h2>
-		<div class="row">
+		<div class="row colorow">
 			<div class="col-md-4">
 				<img src="images/img1.png" class="img-responsive unveilImg" data-src="images/sarah.jpg" alt="Sarah">
 			</div>
 
-			<div class="col-md-8">
+			<div class="col-md-8 bios">
 				<h3>Sarah Kingsley</h3>
 				<ul class="list-unstyled">
 					<li>CSS Artist</li>
@@ -42,13 +42,13 @@
 			</div>
 		</div>
 
-		<br><hr/>
-		<div class="row">
+		<br>
+		<div class="row colorow">
 			<div class="col-md-4">
 				<img src="images/img1.png" class="img-responsive unveilImg" data-src="images/alex.jpg" alt="Alex">
 			</div>
 
-			<div class="col-md-8">
+			<div class="col-md-8 bios">
 				<h3>Alex Mai</h3>
 				<ul class="list-unstyled">
 					<li>Framework Wrangler</li>
@@ -56,13 +56,13 @@
 			</div>
 		</div>
 
-		<br><hr/>
-		<div class="row">
+		<br>
+		<div class="row colorow">
 			<div class="col-md-4">
 				<img src="images/img1.png" class="img-responsive unveilImg" data-src="images/tess.jpg" alt="Tess">
 			</div>
 
-			<div class="col-md-8">
+			<div class="col-md-8 bios">
 				<h3>Tess Stone</h3>
 				<ul class="list-unstyled">
 					<li>Content Master and Designer</li>
@@ -70,13 +70,13 @@
 			</div>
 		</div>
 
-		<br><hr/>
-		<div class="row">
+		<br>
+		<div class="row colorow">
 			<div class="col-md-4">
 				<img src="images/img1.png" class="img-responsive unveilImg" data-src="images/april.jpg" alt="April">
 			</div>
 
-			<div class="col-md-8">
+			<div class="col-md-8 bios">
 				<h3>April Uzzle</h3>
 				<ul class="list-unstyled">
 					<li>Architect</li>
@@ -84,28 +84,28 @@
 			</div>
 		</div>
 
-		<br><hr/>
-		<div class="row">
+		<br>
+		<div class="row colorow">
 			<div class="col-md-4">
 				<img src="images/img1.png" class="img-responsive unveilImg" data-src="images/theresa.jpg" alt="Theresa">
 			</div>
 
-			<div class="col-md-8">
+			<div class="col-md-8 bios">
 				<h3>Theresa Xu</h3>
 				<ul class="list-unstyled">
 					<li>Javascript Coder</li>
 				</ul>
 			</div>
 		</div>
-		<br><hr><br>
+		<br>
 	</section>
-
+	<hr>
 	<section>
-		<h2>Team 4 Colophon</h2>
-		<br><hr/>
+		<h2 id="team4header">Team 4 Colophon</h2>
+		<br>
 		<div class="row">
 
-			<div class="col-md-8">
+			<div class="team4">
 				<h3>Danny Diaz-Etchevehere</h3>
 				<ul class="list-unstyled">
 					<p>I got rid of the old nav and created a responsive fixed top-nav. This required a mix of html, css, js (and jquery), and php. I created responsive-nav.inc, responsive-nav-styles.css, and responsive-nav.js, and I added nav fonts to fonts.css. I also incorporated Team 3's music player into the nav on each band page by using php on to store the path to each page's audio file. Then I used js to add the path to the source attribute of the audio element in responsive-nav.inc. I included responsive-nav.inc and responsive-nav.js on every page. </p>
@@ -113,21 +113,21 @@
 					<p>(Note: on our github page, commits from "memoryfuel" and "ddiazetc" are both me. I have two accounts and accidentally used both.)</p>
 				</ul>
 
-        <h3>Gunnar Zemering</h3>
+        		<h3>Gunnar Zemering</h3>
 				<ul class="list-unstyled">
-          <p>Created the new readme and edited the project plan. Created and organized the github. Replaced the slideshow on the homepage with a more responsive one. Replaced and resized all the images with higher quality images.</p>
+          			<p>Created the new readme and edited the project plan. Created and organized the github. Replaced the slideshow on the homepage with a more responsive one. Replaced and resized all the images with higher quality images.</p>
 				</ul>
 
-        <h3>Ruairi Conway</h3>
+        		<h3>Ruairi Conway</h3>
 				<ul class="list-unstyled">
 				</ul>
 
-        <h3>Teron Russell</h3>
+        		<h3>Teron Russell</h3>
 				<ul class="list-unstyled">
                     <p> I created hyperlinks to most of the pages to show more information. There are that states the singles, albums, and EPs now link to a respectable location for purchase. I added an unveil (lazyLoad) plugin to make the images load differently in the colophon. It is noticeable if you look at the scrollbar while scrolling down through all the members. Added some CSS to make the unveil plugin work.</p>
 				</ul>
 
-        <h3>Jake Socolow</h3>
+        		<h3>Jake Socolow</h3>
 				<ul class="list-unstyled">
 				</ul>
 

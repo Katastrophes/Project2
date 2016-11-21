@@ -43,6 +43,8 @@ figcaption {
 	color: #FEE6BA;
 }
 
+/** BAND PAGES **/
+
 .page {
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -119,6 +121,69 @@ footer a {
 
 footer a:hover {
 	color: #114368;
+}
+
+/** COLOPHON **/
+
+.jumbotron {
+	background-color: #114368;
+	-webkit-box-shadow: 10px 10px 47px -9px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 47px -9px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 47px -9px rgba(0,0,0,0.75);
+}
+
+#jumbotron {
+	padding-top: 0;
+}
+
+.jumbotron h1 {
+	color: white;
+}
+
+#studentintro {
+	color: white;
+	text-align: center;
+}
+
+#coloheader {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#aboutUs {
+	margin-left: 35px;
+	color: #114368;
+}
+
+.colorow {
+	background-color: #114368;
+	max-width: 100%;
+	margin: 0 auto;
+	border-radius: 8px;
+	-webkit-box-shadow: 10px 10px 47px -9px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 47px -9px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 47px -9px rgba(0,0,0,0.75);
+}
+
+.bios {
+	background-color: white;
+	text-align: center;
+	margin-top: 10px;
+	border-radius: 5px;
+	-webkit-box-shadow: inset 0px 0px 17px -3px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 0px 17px -3px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 0px 17px -3px rgba(0,0,0,0.75);
+	color: #114368;
+}
+
+#team4header {
+	margin-top: 40px;
+	color: #114368;
+}
+
+.team4 {
+	max-width: 60%;
+	margin: 0 auto;
 }
 
 /** fonts **/
