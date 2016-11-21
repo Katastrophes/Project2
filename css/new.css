@@ -22,8 +22,11 @@
 
 header {
 	margin: 30px 0 0 0;
-	margin-left: 39px;
 	color: #114368;
+}
+
+footer {
+	margin-bottom: 30px;
 }
 
 p {
@@ -41,6 +44,40 @@ img {
 figcaption {
 	text-align: center;
 	color: #FEE6BA;
+}
+
+/** INDEX PAGE **/
+
+#top-part h1 {
+	background-color: #114368;
+	max-width: 40%;
+	margin: 10px auto;
+	color: white;
+	border-radius: 5px;
+	padding-top: 15px;
+}
+
+.mySlides {
+	margin-top: 35px;
+	border-radius: 5px;
+	-webkit-box-shadow: 10px 10px 47px -9px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 47px -9px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 47px -9px rgba(0,0,0,0.75);
+}
+
+.mySlides img{
+	border-radius: 5px;
+}
+
+.indexTitle {
+	margin-left: 15px;
+	color: #114368;
+}
+
+@media(max-width: 720px){
+	#top-part h1 {
+		min-width: 300px;
+	}
 }
 
 /** BAND PAGES **/
