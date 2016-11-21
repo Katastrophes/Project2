@@ -165,7 +165,6 @@
 					<h2>The <em>Lonesome Dreams</em> series</h2>
 
 				<div class="chunk">
-					<p>(In order of publication date)</p>
 					<ol>
 						<li><a href="https://itunes.apple.com/us/album/lonesome-dreams/id563052469">"Lonesome Dreams" (1966)</a></li>
                         <li><a href="https://itunes.apple.com/tt/music-video/she-lit-a-fire/id588742365">"She Lit a Fire" (1968)</a></li>
