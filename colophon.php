@@ -115,6 +115,7 @@
 
         <h3>Gunnar Zemering</h3>
 				<ul class="list-unstyled">
+          <p>Created the new readme and edited the project plan. Created and organized the github. Replaced the slideshow on the homepage with a more responsive one. Replaced and resized all the images with higher quality images.</p>
 				</ul>
 
         <h3>Ruairi Conway</h3>
