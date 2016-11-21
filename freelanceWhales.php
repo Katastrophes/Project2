@@ -25,9 +25,8 @@
 	<section id="information">
 		<div class="row">
 			<!-- Left column -->
-			<div class="col-md-7">
+			<div class="col-md-7 page">
 
-				<article>
 					<p><span class = "first-half-sentence">Freelance Whales is an American indie rock band which formed in Queens,</span> New York, United States, in 2008. The band consists of frontman Judah Dadone (lead vocals, banjo, acoustic and electric guitar, synthesizer, bass), and bandmates Doris Cellar (bass, harmonium, glockenspiel, synthesizer, vocals), Chuck Criss (banjo, bass, synthesizer, glockenspiel, harmonium, acoustic and electric guitar, vocals), Jacob Hyman (drums, percussion, vocals) and Kevin Read (acoustic and electric guitar, glockenspiel, mandolin, synthesizer, vocals).</p>
 					
 					<h2>History</h2>
@@ -48,19 +47,9 @@
 					<p><span class = "first-half-sentence">The band's first performance was at Staten Island's abandoned Farm Colony </span>in January 2009. Throughout 2009, the Whales continued to busk around New York City, playing subway platforms and more traditional stages. In November–December 2009, Freelance Whales took on their first U.S./Canada tour, opening for London-based indie pop band, Fanfarlo. They continued to tour nationally over the course of 2010, as the first band of three on tour with Brooklyn-based rock band, Bear in Heaven, and indie-rock band, Cymbals Eat Guitars, and as the opening band for Swedish indie rock band, Shout Out Louds. They also began to dabble into the world of international touring, playing shows in England and releasing their first international single in the U.K. in February 2010.[8] Freelance Whales have since toured the U.S. and Canada with Canadian indie rock band Tokyo Police Club,[9] and as well as English indie rock band Foals and alternative New Zealand band, The Naked and Famous.[10]</p>
 
 					<p><span class = "first-half-sentence">The band has received critical acclaim from a number of respected sources. </span>In advance of their performances at South by Southwest in Austin, Texas, Spin magazine called them one of their 50 "Must Hear Bands at SXSW,"[11] and a live performance for All Songs Considered led NPR to refer to them as "a band to watch this year."[2]</p>
-				</article>
-			</div>
-
-			<!-- Right column -->
-			<div class="col-md-5">
-
-				
-				
-				<aside class="static" id="static3">
-
 					<h2>Discography</h2>
 
-						<p><span class = "first-half-sentence">According to Metacritic, Freelance Whales' debut LP Weathervanes was </span>received with generally favorable reviews, ranging from a 91/100 from Entertainment Weekly to a 4.2/10 from Pitchfork Media.[12] According to EW, the 13-track album, released April 27, 2010, is "the best electronic indie-pop debut since Ben Gibbard last tuned his laptop."[13] Many liken Dadone's vocals to those of Ben Gibbard of the electronic indie pop band The Postal Service or of American singer-songwriter Sufjan Stevens.</p>
+					<p><span class = "first-half-sentence">According to Metacritic, Freelance Whales' debut LP Weathervanes was </span>received with generally favorable reviews, ranging from a 91/100 from Entertainment Weekly to a 4.2/10 from Pitchfork Media.[12] According to EW, the 13-track album, released April 27, 2010, is "the best electronic indie-pop debut since Ben Gibbard last tuned his laptop."[13] Many liken Dadone's vocals to those of Ben Gibbard of the electronic indie pop band The Postal Service or of American singer-songwriter Sufjan Stevens.</p>
 
 					<h3>Albums</h3>
 					<ul class="list-unstyled">
@@ -82,8 +71,6 @@
 						<li>"Spitting Image" (October 2012)[14]</li>
 
 					</ul>
-
-				</aside>
 			</div>
 		</div> <!-- end .row -->
 	</section>

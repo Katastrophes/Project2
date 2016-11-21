@@ -22,9 +22,7 @@
 	<section id="information">
 		<div class="row">
 			<!-- Left column -->
-			<div class="col-md-7">
-
-				<article>
+			<div class="col-md-7 page">
 					<h2>Background</h2>
 
 					<p>
@@ -150,13 +148,6 @@
 						<figcaption class="figure-caption">Band Members</figcaption>
 					</figure>
 
-				</article>
-			</div>
-
-			<!-- Right column -->
-			<div class="col-md-5">
-
-				<aside class="static" id="static2">
 					<h2>George Ranger Johnson</h2>
 					<p>
 						<a href="http://www.georgerangerjohnson.com/">George Ranger Johnson</a> (born March 11, 1946) is the author of the Lonesome Dreams series of adventure stories, including "Ends of the Earth", "Time to Run" and "The Man Who Lives Forever". Mr. Johnson currently resides in Tucson, AZ. His most recent novel, "The Ghost on the Shore" was published in 1987. The series unfolds non-chronologically, following the wide-ranging adventures of several characters, (chiefly Huron, Admiral Blaquefut and Helena) whose stories intertwine. It is unclear whether the Lonesome Dreams series will continue.
@@ -177,7 +168,6 @@
 						<li>"The Ghost on the Shore" (1987)</li>
 						<li>"Setting Sun" (unfinished)</li>
 					</ol>
-				</aside>
 			</div>
 		</div> <!-- end .row -->
 	</section>

@@ -25,9 +25,8 @@
 	<section id="information">
 		<div class="row">
 			<!-- Left column -->
-			<div class="col-md-7">	
+			<div class="col-md-7 page">	
 
-				<article>
 					<p><span class = "first-half-sentence">Neutral Milk Hotel was an American indie rock band formed</span> in Ruston, Louisiana by singer, guitarist, and songwriter Jeff Mangum in the late 1980s.[1] The band is noted for its experimental sound, abstract lyrics and eclectic instrumentation.[2]</p>
 
 					<p>The first release under the Neutral Milk Hotel moniker was the 1994 EP Everything Is, a short collection of tracks featuring Mangum. On the band's full-length debut album On Avery Island, which followed shortly thereafter, Mangum was joined by childhood friend and Apples in Stereo frontman Robert Schneider, who contributed production and instrumentation. Upon the album's release, the full band was formed and extensive touring began.</p>
@@ -86,16 +85,9 @@
 
 					</ul>
 
-				</article>
-			</div>
-
-			<!-- Right column -->
-			<div class="col-md-5">				
-				<aside class="static" id="static1">
 					<h2>Influence</h2>
 					<p><span class = "first-half-sentence">Neutral Milk Hotel's sound has influenced numerous groups such as </span> Arcade Fire, Bon Iver, Beirut, Franz Ferdinand, Bright Eyes,[36] and The Decemberists.[37][38] Their songs have been covered by a number of artists including Brand New ("Oh Comely", "Two Headed Boy"), Matt Pond PA, Eisley ("In The Aeroplane Over The Sea"), The Mountain Goats,[39] Andrew Jackson Jihad, The Dresden Dolls, ("Two Headed Boy"), Kevin Devine ("Holland, 1945", "Two Headed Boy Part 2") and The Flowers of Hell ("Avery Island" / "April 1st").[40] They are also considered one of the most influential groups in neo-folk and indie music, and In the Aeroplane Over the Sea is typically considered within conversations of the best albums under these genre labels (specifically from this time period).[citation needed]</p>
 
-				</aside>
 			</div>
 		</div> <!-- end .row -->
 	</section>

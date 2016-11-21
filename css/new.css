@@ -16,33 +16,19 @@ figcaption {
 	text-align: center;
 }
 
-.static {
-	position: fixed;
-	margin: 0 10% 0 40px;
+.page {
+	width: 100%;
 	background-color: #114368;
-	padding: 0 20px 10px 20px;
 	border-radius: 5px;
 	-webkit-box-shadow: 10px 10px 47px -9px rgba(0,0,0,0.75);
 	-moz-box-shadow: 10px 10px 47px -9px rgba(0,0,0,0.75);
 	box-shadow: 10px 10px 47px -9px rgba(0,0,0,0.75);
 }
 
-#static1 {
-	top: 30%;
-}
-
-#static2 {
-	top: 12%;
-}
-
-#static3 {
-	top: 11%;
-}
-
-.static p {
+.page p {
 	color: white;
 }
 
-.static li {
+.page li {
 	color: white;
 }
