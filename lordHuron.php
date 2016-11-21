@@ -156,17 +156,17 @@
 					<h2>The <em>Lonesome Dreams</em> series</h2>
 					<p>(In order of publication date)</p>
 					<ol>
-						<li>"Lonesome Dreams" (1966)</li>
-						<li>"She Lit a Fire" (1968)</li>
-						<li>"Time to Run" (1969)</li>
-						<li>"Ends of the Earth" (1971)</li>
-						<li>"The Man Who Lives Forever (1974)</li>
-						<li>"In the Wind" (1977)</li>
-						<li>"Brother (Last Ride)" (1979)</li>
-						<li>"I Will Be Back One Day" (1983)</li>
-						<li>"Lullaby" (1985)</li>
-						<li>"The Ghost on the Shore" (1987)</li>
-						<li>"Setting Sun" (unfinished)</li>
+						<li><a href="https://itunes.apple.com/us/album/lonesome-dreams/id563052469">"Lonesome Dreams" (1966)</a></li>
+                        <li><a href="https://itunes.apple.com/tt/music-video/she-lit-a-fire/id588742365">"She Lit a Fire" (1968)</a></li>
+                        <li><a href="https://itunes.apple.com/gb/album/time-to-run-ep/id561819902">"Time to Run" (1969)</a></li>
+                        <li><a href="https://itunes.apple.com/us/album/ends-of-the-earth/id970887928?i=970888848">"Ends of the Earth" (1971)</a></li>
+                        <li><a href="https://itunes.apple.com/tm/music-video/the-man-who-lives-forever/id588742373">"The Man Who Lives Forever (1974)</a></li>
+                        <li><a href="https://itunes.apple.com/us/album/lonesome-dreams/id970887928">"In the Wind" (1977)</a></li>
+                        <li><a href="https://itunes.apple.com/us/album/brother/id970887928?i=970888975">"Brother (Last Ride)" (1979)</a></li>
+                        <li><a href="https://itunes.apple.com/us/album/lonesome-dreams/id970887928">"I Will Be Back One Day" (1983)</a></li>
+                        <li><a href="https://itunes.apple.com/us/album/lonesome-dreams/id970887928">"Lullaby" (1985)</a></li>
+                        <li><a href="https://itunes.apple.com/us/album/the-ghost-on-the-shore/id970887928?i=970888863">"The Ghost on the Shore" (1987)</a></li>
+                        <li><a href="https://itunes.apple.com/gb/album/lonesome-dreams-deluxe-version/id588742012">"Setting Sun" (unfinished)</a></li>
 					</ol>
 			</div>
 		</div> <!-- end .row -->

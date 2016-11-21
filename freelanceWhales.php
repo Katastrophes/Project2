@@ -53,8 +53,8 @@
 
 					<h3>Albums</h3>
 					<ul class="list-unstyled">
-						<li>Weathervanes (April 13, 2010)</li>
-						<li>Diluvia (October 9, 2012)</li>
+                        <li><a href="https://itunes.apple.com/us/album/weathervanes/id927480123">Weathervanes (April 13, 2010)</a></li>
+                        <li><a href="https://itunes.apple.com/us/album/diluvia/id561201606">Diluvia (October 9, 2012)</a></li>
 					</ul>
 
 					<h3>EPs</h3>
@@ -64,11 +64,11 @@
 
 					<h3>Singles</h3>
 					<ul class="list-unstyled">
-						<li>"Hannah" (April 27, 2010)</li>
-						<li>"Enzymes" (October 2010)</li>
+                        <li><a href="https://itunes.apple.com/ca/album/hannah-single/id388248360">"Hannah" (April 27, 2010)</a></li>
+                        <li><a href="https://itunes.apple.com/us/album/enzymes-single/id409023485">"Enzymes" (October 2010)</a></li>
 						<li>"Day Off"</li>
-						<li>"Generator ^ First Floor" (March 2011)</li>
-						<li>"Spitting Image" (October 2012)[14]</li>
+                        <li>"<a href="https://itunes.apple.com/us/album/generator-first-floor-single/id425227543">"Generator ^ First Floor" (March 2011)</a></li>
+                        <li><a href="https://itunes.apple.com/us/album/spitting-image-single/id551194640">"Spitting Image" (October 2012)[14]</a></li>
 
 					</ul>
 			</div>
