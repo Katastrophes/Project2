@@ -23,7 +23,7 @@
 		</header>
 
 	<div class="embed-container">
-		<iframe src='https://player.vimeo.com/video/31956123' frameborder='0' allowfullscreen>
+		<iframe src='https://player.vimeo.com/video/31956123' allowfullscreen>
 		</iframe>
 	</div>
 

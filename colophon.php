@@ -108,37 +108,37 @@
 				<div class="team4bios">
 					<h3 id="top4bio">Danny Diaz-Etchevehere</h3>
 					<ul class="list-unstyled">
-						<p>I got rid of the old nav and created a responsive fixed top-nav. This required a mix of html, css, js (and jquery), and php. I created responsive-nav.inc, responsive-nav-styles.css, and responsive-nav.js, and I added nav fonts to fonts.css. I also incorporated Team 3's music player into the nav on each band page by using php on to store the path to each page's audio file. Then I used js to add the path to the source attribute of the audio element in responsive-nav.inc. I included responsive-nav.inc and responsive-nav.js on every page. </p>
-						<p>For mobile sized screens, the nav has a hamburger menu that creates a fullscreen overlay so that the user can choose which page to go to next (or choose to navigate back to the top of the page). I found a couple online tutorials on how to achieve the fade effect for the overlay (and to create the overlay itself), which I cite in responsive-nav-styles.css.</p>
-						<p>(Note: on our github page, commits from "memoryfuel" and "ddiazetc" are both me. I have two accounts and accidentally used both.)</p>
+                        <li>I got rid of the old nav and created a responsive fixed top-nav. This required a mix of html, css, js (and jquery), and php. I created responsive-nav.inc, responsive-nav-styles.css, and responsive-nav.js, and I added nav fonts to fonts.css. I also incorporated Team 3's music player into the nav on each band page by using php on to store the path to each page's audio file. Then I used js to add the path to the source attribute of the audio element in responsive-nav.inc. I included responsive-nav.inc and responsive-nav.js on every page. </li>
+						<li>For mobile sized screens, the nav has a hamburger menu that creates a fullscreen overlay so that the user can choose which page to go to next (or choose to navigate back to the top of the page). I found a couple online tutorials on how to achieve the fade effect for the overlay (and to create the overlay itself), which I cite in responsive-nav-styles.css.</li>
+						<li>(Note: on our github page, commits from "memoryfuel" and "ddiazetc" are both me. I have two accounts and accidentally used both.)</li>
 					</ul>
 				</div>
 
 				<div class="team4bios">
 	        		<h3>Gunnar Zemering</h3>
 					<ul class="list-unstyled">
-	          			<p>Created the new readme and edited the project plan. Created and organized the github. Replaced the slideshow on the homepage with a more responsive one. Replaced and resized all the images with higher quality images.</p>
+	          			<li>Created the new readme and edited the project plan. Created and organized the github. Replaced the slideshow on the homepage with a more responsive one. Replaced and resized all the images with higher quality images.</li>
 					</ul>
 				</div>
 
 				<div class="team4bios">
 	        		<h3>Ruairi Conway</h3>
 					<ul class="list-unstyled">
-						<p>I helped develop a "Cleaner Design" using CSS formatting to distinguish between seperate topics and add color to the page. Including centered images and formatting text to follow a uniform structure. I also rearranged some of the "article-aside" structured pages. Specifically the Index page and band pages. On the band pages we decided to remove it altogether and on the index page I structured the four text sections as a grid.</p>
+						<li>I helped develop a "Cleaner Design" using CSS formatting to distinguish between seperate topics and add color to the page. Including centered images and formatting text to follow a uniform structure. I also rearranged some of the "article-aside" structured pages. Specifically the Index page and band pages. On the band pages we decided to remove it altogether and on the index page I structured the four text sections as a grid.</li>
 					</ul>
 				</div>
 
 				<div class="team4bios">
 	        		<h3>Teron Russell</h3>
 					<ul class="list-unstyled">
-	                    <p> I created hyperlinks to most of the pages to show more information. There are that states the singles, albums, and EPs now link to a respectable location for purchase. I added an unveil (lazyLoad) plugin to make the images load differently in the colophon. It is noticeable if you look at the scrollbar while scrolling down through all the members. Added some CSS to make the unveil plugin work.</p>
+	                    <li>I created hyperlinks to most of the pages to show more information. There are that states the singles, albums, and EPs now link to a respectable location for purchase. I added an unveil (lazyLoad) plugin to make the images load differently in the colophon. It is noticeable if you look at the scrollbar while scrolling down through all the members. Added some CSS to make the unveil plugin work. I also validated errors on all pages except for the "audio" tag.</li>
 					</ul>
 				</div>
 
 				<div class="team4bios">
 	        		<h3>Jake Socolow</h3>
 					<ul class="list-unstyled">
-						<p> Using Vimeo, embedded videos for each band to introduce the viewer to the band and serve as a visual "hook" for each page. Also added a few SVG images to appropriate sections of each page. Icons courtesy of Freepik. </p>
+						 <li>Using Vimeo, embedded videos for each band to introduce the viewer to the band and serve as a visual "hook" for each page. Also added a few SVG images to appropriate sections of each page. Icons courtesy of Freepik. </li>
 					</ul>
 				</div>
 			</div>
@@ -148,7 +148,7 @@
 	<!-- Technologies Used -->
 	<section id="tech">
 		<h2>Technologies Used For All Pages</h2>
-		<ul ul class="list-unstyled">
+		<ul class="list-unstyled">
 			<li>PHP</li>
 			<li>HTML</li>
 			<li>CSS</li>

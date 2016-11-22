@@ -18,7 +18,7 @@
 		<h1>Alternative Music | Lord Huron <img src="images/cd.svg" alt="CD"> </h1>
 	</header>
 	<div class='embed-container'>
-		<iframe src='https://player.vimeo.com/video/47292906' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen>
+		<iframe src='https://player.vimeo.com/video/47292906' allowFullScreen>
 		</iframe>
 	</div>
 

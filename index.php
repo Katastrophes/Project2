@@ -5,15 +5,17 @@
 
 	<?php include "inc/head.inc" ?>
 
-	<!--This div is for getting the variable value $audio_str thru JS in responsive-nav.js-->
-	<div id="music-target" style="display: none;">
-		<?php
-		$audio_str = "nomusic";
-		echo htmlspecialchars($audio_str);
-		?>
-	 </div>
-
+	
 	<body>
+        
+        <!--This div is for getting the variable value $audio_str thru JS in responsive-nav.js-->
+        <div id="music-target" style="display: none;">
+            <?php
+            $audio_str = "nomusic";
+            echo htmlspecialchars($audio_str);
+            ?>
+         </div>
+
 		<?php include "inc/responsive-nav.inc" ?>
 		<div class="container">
 
