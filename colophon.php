@@ -124,6 +124,7 @@
 				<div class="team4bios">
 	        		<h3>Ruairi Conway</h3>
 					<ul class="list-unstyled">
+						<p>I helped develop a "Cleaner Design" using CSS formatting to distinguish between seperate topics and add color to the page. Including centered images and formatting text to follow a uniform structure. I also rearranged some of the "article-aside" structured pages. Specifically the Index page and band pages. On the band pages we decided to remove it altogether and on the index page I structured the four text sections as a grid.</p>
 					</ul>
 				</div>
 
