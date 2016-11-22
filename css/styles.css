@@ -159,6 +159,10 @@ a.anchor {
     opacity: 0;
     transition: opacity .5s ease-in;
 }
+
+.embed-container iframe {
+    border: 0;
+}
 /** added by Jake**/
 .embed-container { 
 	position: relative; 

@@ -17,7 +17,7 @@
 	<script>window.jQuery || document.write('<script src="js/jquery-1.12.4.min.js"><\/script>')</script>
 
 	<!-- Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Catamaran|Roboto+Condensed" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Catamaran%7CRoboto+Condensed" rel="stylesheet">
 	
 	<!-- Adds JavaScript -->
 	<script src = "js/myscripts.js"></script>

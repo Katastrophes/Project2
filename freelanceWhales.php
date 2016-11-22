@@ -14,15 +14,17 @@
 		?>
 	 </div>
 
+    <div>
 	<?php include "inc/responsive-nav.inc"; ?>
+    </div>
 
 	<div class="container">
-		<a class="anchor" id="top"></a>	
+		<a class="anchor"></a>	
 		<header id="top">
 			<h1>Alternative Music | Freelance Whales <img src="images/cd.svg" alt="CD"> </h1>
 		</header>
 	<div class='embed-container'>
-		<iframe src='https://player.vimeo.com/video/18481132' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen>
+		<iframe src='https://player.vimeo.com/video/18481132' allowFullScreen>
 		</iframe>
 	</div>
 
