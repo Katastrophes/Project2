@@ -31,7 +31,7 @@
 				</div>	
 
 					<figure>
-						<img src="images/image5.jpg" class="figure-img img-responsive img-rounded unveilImg" alt="Freelance Whales">
+						<img src="images/image5.jpg" class="figure-img img-responsive img-rounded" alt="Freelance Whales">
 						<figcaption class="figure-caption">Freelance Whales</figcaption>
 					</figure>
 
@@ -99,7 +99,7 @@
 
 <script src="js/responsive-nav.js"></script>
 
-<?php include('inc/unveil.inc'); ?>
+
 </body>
 
 </html>

@@ -40,7 +40,7 @@
 				</div>
 
 					<figure class="figure">
-						<img src="images/image4.jpg" class="figure-img img-responsive img-rounded unveilImg" alt="Neutral Milk Hotel">
+						<img src="images/image4.jpg" class="figure-img img-responsive img-rounded" alt="Neutral Milk Hotel">
 						<figcaption class="figure-caption">Neutral Milk Hotel</figcaption>
 					</figure>
 
@@ -113,7 +113,6 @@
 	</div><!--cover-->
 <script>document.getElementById("mobile-nav").style.opacity = "0";</script>
 <script src="js/responsive-nav.js"></script>
-<?php include('inc/unveil.inc'); ?>
 
 </body>
 </html>
