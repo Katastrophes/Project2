@@ -9,6 +9,7 @@
 	        <a href="freelanceWhales.php" class="mobile-nav-a" onclick="openNav()">Freelance Whales</a>
 	        <a href="colophon.php" class="mobile-nav-a" onclick="openNav()">Colophon</a>
 	    </div>
+	</div>
 </div>
 
 <!--Fixed top-nav-->

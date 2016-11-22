@@ -1,6 +1,6 @@
 <!doctype html>
 
-<html>
+<html lang="en">
 	<?php $thisPage = "Home" ?>
 
 	<?php include "inc/head.inc" ?>
@@ -30,17 +30,17 @@
 			<div class="slideshow-container">
 
 			<div class="mySlides">
-			  <img src="images/image6.jpg" style="width:100%">
+			  <img src="images/image6.jpg" style="width:100%" alt="image6">
 			  <div class="text">Neutral Milk Hotel</div>
 			</div>
 
 			<div class="mySlides">
-			  <img src="images/image7.jpg" style="width:100%">
+			  <img src="images/image7.jpg" style="width:100%" alt="image7">
 			  <div class="text">Lord Huron</div>
 			</div>
 
 			<div class="mySlides">
-			  <img src="images/image8.jpg" style="width:100%">
+			  <img src="images/image8.jpg" style="width:100%" alt="image8">
 			  <div class="text">Freelance Whales</div>
 			</div>
 
