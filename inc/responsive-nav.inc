@@ -24,7 +24,7 @@
     <div class="nav-item"><a href="freelanceWhales.php" class="<?php if ($thisPage == "Freelance Whales"){ echo "nav-a active";} ?>">Freelance Whales</a></div>
     <div class="nav-item" id="navright"><a href="colophon.php" class="<?php if ($thisPage == "Colophon"){ echo "nav-a active";} ?>">Colophon</a></div>
     <div id="music">
-		<audio id = "song" src =""></audio>
+		<audio id = "song" src ="#"></audio>
 		<input type = "button" class="btn btn-primary btn-lg outline" onclick="play()" value="Play">
 		<input type = "button" class="btn btn-primary btn-lg outline" onclick="stop()" value="Pause">
 	</div>
