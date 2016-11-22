@@ -2,7 +2,7 @@
 	Slides - Theresa Xu
 	************************************* */
 
-#slidePics {
+/*#slidePics {
 	-webkit-size: cover;
 	-moz-size: cover;
 	-o-size: cover;
@@ -16,9 +16,9 @@
 	background-color: transparent;
 	padding-top: 25px;
 	padding-bottom: 25px;
-	height: 100%
+	height: 100%;
 	width: 100%;
-}
+}*/
 
 #right-arrow {
 	height: 400px;
