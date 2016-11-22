@@ -94,17 +94,10 @@ html{
 	left: 0;
 	background-color: rgb(255,255,255);
 	overflow-y: hidden;
-    -moz-animation-name: fadeIn;
-	-webkit-animation-name: fadeIn;
-	-ms-animation-name: fadeIn;
+
 	animation-name: fadeIn;
-	-moz-animation-duration: .25s;
-	-webkit-animation-duration: .25s;
-	-ms-animation-duration: .25s;
 	animation-duration: .25s;
-	-moz-animation-fill-mode: forwards;
-	-webkit-animation-fill-mode: forwards;
-	-ms-animation-fill-mode: forwards;
+
 	animation-fill-mode: forwards;
 }
 
@@ -115,14 +108,10 @@ html{
 	animation-name: fadeOut;
 }
 
-@-moz-keyframes fadeIn { 0% { opacity: 0; visibility: hidden; } 100% { opacity: 0.9; visibility: visible; }}
-@-webkit-keyframes fadeIn { 0% { opacity: 0; visibility: hidden; } 100% { opacity: 0.9; visibility: visible; }}
-@-ms-keyframes fadeIn { 0% { opacity: 0; visibility: hidden; } 100% { opacity: 0.9; visibility: visible; }}
+
 @keyframes fadeIn { 0% { opacity: 0; visibility: hidden; } 100% { opacity: 0.9; visibility: visible; }}
 
-@-moz-keyframes fadeOut { 0% { opacity: 0.9; visibility: visible; }  100% { opacity: 0; visibility: hidden; }}
-@-webkit-keyframes fadeOut { 0% { opacity: 0.9; visibility: visible; }  100% { opacity: 0; visibility: hidden; }}
-@-ms-keyframes fadeOut { 0% { opacity: 0.9; visibility: visible; } 100% { opacity: 0; visibility: hidden; }}
+
 @keyframes fadeOut { 0% { opacity: 0.9; visibility: visible; } 100% { opacity: 0; visibility: hidden;  }}
 
 .overlay-content {
