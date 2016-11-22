@@ -63,7 +63,7 @@
 		 <section id="information">
 
 		 	<div class="row">
-		 		<h2 class="indexTitle">Characteristics</h2>
+		 		<h2 class="indexTitle">Characteristics <img src="images/note.svg" alt="Note"></h2>
 		 		<!-- Left column -->
 		 		<div class="col-md-6">
 					<article>
@@ -87,7 +87,7 @@
 
 
 			<footer>
-				<h2 class="indexTitle">Citations</h2>
+				<h2 class="indexTitle">Citations </h2>
 				<p>
 					Content taken from <a href="https://en.wikipedia.org/wiki/Alternative_rock">https://en.wikipedia.org/wiki/Alternative_rock</a>.
 				</p>

@@ -20,7 +20,7 @@
 
 	<div class="jumbotron">
 		<div class="container" id="jumbotron">
-			<h1>Who We Are</h1>
+			<h1>Who We Are <img src="images/question.svg" alt="About"> </h1>
 			<p id="studentintro">We are a team of student web developers from the University of Rochester that have a passion for music. By leveraging our diverse background and interests, we created a website to showcase a few of our favorite alternative rock bands.</p>
 			<p><a class="btn btn-primary btn-lg outline" href="#aboutUs">Learn more &raquo;</a></p>
 		</div>
@@ -101,7 +101,7 @@
 	</section>
 	<hr>
 	<section>
-		<h2 id="team4header">Team 4 Colophon</h2>
+		<h2 id="team4header">Team 4 Colophon <img src="images/book.svg" alt="Book"></h2>
 		<br>
 		<div class="row">
 			<div class="team4">
@@ -137,6 +137,7 @@
 				<div class="team4bios">
 	        		<h3>Jake Socolow</h3>
 					<ul class="list-unstyled">
+						<p> Using Vimeo, embedded videos for each band to introduce the viewer to the band and serve as a visual "hook" for each page. Also added a few SVG images to appropriate sections of each page. Icons courtesy of Freepik. </p>
 					</ul>
 				</div>
 			</div>

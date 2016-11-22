@@ -19,8 +19,13 @@
 	<div class="container">
 	 	<a class="anchor" id="top"></a>	
 		<header>
-			<h1>Alternative Music | Neutral Milk Hotel</h1>
+			<h1>Alternative Music | Neutral Milk Hotel <img src="images/cd.svg" alt="CD"> </h1>
 		</header>
+
+	<div class="embed-container">
+		<iframe src='https://player.vimeo.com/video/31956123' frameborder='0' allowfullscreen>
+		</iframe>
+	</div>
 
 	<section id="information">
 		<div class="row">
